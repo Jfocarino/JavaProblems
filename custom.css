@@ -1,0 +1,45 @@
+#clock{
+	display:none;
+}
+
+#startGame{
+	width:200px;
+/*		height:100px;*/
+	background:black;
+	color:white;
+	text-align:center;
+	border-radius:30px;
+	padding-top:50px;
+	padding-bottom:50px;
+	margin: 0 auto;
+
+	cursor:pointer;
+}
+
+#Lightbox{
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+	height:100%;
+	background: rgba(0,0,0,0.3);
+}#LightboxContentbox{
+	width: 50%;
+	height: 50%;
+	background: white;
+	border-radius: 30px;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+
+
+}
+#closedbtn{
+	cursor: pointer;
+}
+#luigi{
+	width: 20%;
+	height: auto;
+}
